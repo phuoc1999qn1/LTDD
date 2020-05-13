@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Trang chủ" />
+        <item
+            android:id="@+id/nav_shirt"
+            android:icon="@drawable/masculine"
+            android:title="Áo" />
+        <item
+            android:id="@+id/nav_trouser"
+            android:icon="@drawable/quan"
+            android:title="Quần" />
+        <item
+            android:id="@+id/nav_glasses"
+            android:icon="@drawable/phukien"
+            android:title="Phụ kiện" />
+    </group>
+
+    <item android:title="Tài khoản">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login"
+                    android:title="Đăng nhập" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile"
+                    android:title="Thông tin" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout"
+                    android:title="Đăng xuất" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_Share"
+                    android:icon="@drawable/share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_rate"
+                    android:icon="@drawable/rate"
+                    android:title="Đánh giá" />
+            </group>
+        </menu>
+    </item>
+</menu>
